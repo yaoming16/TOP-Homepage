@@ -1,0 +1,23 @@
+import icons from "./icons/icons.html";
+import "./styles.css";
+import projectsList from "./projects.js";
+import createProjectCard from "./projects/project.js";
+
+const iconsContainers = document.querySelectorAll(".icons-container");
+
+iconsContainers.forEach((container) => {
+    container.insertAdjacentHTML("beforeend", icons);
+});
+
+const projectsContainer = document.getElementById("projects-container");
+
+projectsList.forEach((project) => {
+    const projectCard = createProjectCard(
+        project.title,
+        project.description,
+        project.technologies,
+        project.linkPage,
+        project.linkRepo
+    );
+    projectsContainer.appendChild(projectCard);
+});
