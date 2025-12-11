@@ -17,7 +17,8 @@ projectsList.forEach((project) => {
         project.description,
         project.technologies,
         project.linkPage,
-        project.linkRepo
+        project.linkRepo,
+        project.image
     );
     projectsContainer.appendChild(projectCard);
 });

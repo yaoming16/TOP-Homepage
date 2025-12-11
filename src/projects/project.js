@@ -3,7 +3,8 @@ export default function createProjectCard(
     description,
     technologies,
     linkPage,
-    linkRepo
+    linkRepo,
+    img
 ) {
     const titleElement = document.createElement("h3");
     titleElement.textContent = title;
@@ -55,9 +56,14 @@ export default function createProjectCard(
     );
     linkRepoElement.target = "_blank";
 
+    const imgElement = document.createElement("img");
+    imgElement.src = img;
+    imgElement.alt = title + " page screenshot";
+
     const cardContainer = document.createElement("div");
     cardContainer.className = "project-card";
     cardContainer.appendChild(titleElement);
+    cardContainer.appendChild(imgElement);
     cardContainer.appendChild(descriptionElement);
     cardContainer.appendChild(techList);
     cardContainer.appendChild(linkRepoElement);
