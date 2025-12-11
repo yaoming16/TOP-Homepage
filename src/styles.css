@@ -187,3 +187,10 @@ footer h3 {
 .zig-zag-top {
   mask: conic-gradient(from 132.5deg at top,#0000,#000 1deg 94deg,#0000 95deg) 50%/65.48px 100%
 }
+
+@media (max-width: 400px) {
+    #projects-container {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    padding: 0.5rem;
+}
+}
