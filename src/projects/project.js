@@ -1,3 +1,5 @@
+import "./project.css";
+
 export default function createProjectCard(
     title,
     description,
@@ -25,12 +27,11 @@ export default function createProjectCard(
         "beforeend",
         `<svg
             xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
+            width="36"
+            height="36"
             viewBox="0 0 24 24"
         >
             <path
-                fill="currentColor"
                 d="M14 3v2h3.59l-9.83 9.83l1.41 1.41L19 6.41V10h2V3m-2 16H5V5h7V3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7h-2z"
             />
         </svg>`
@@ -41,8 +42,8 @@ export default function createProjectCard(
     linkRepoElement.href = linkRepo;
     linkRepoElement.insertAdjacentHTML(
         "beforeend",
-        `<svg viewBox="0 0 128 128" width="24" height="24">
-            <g fill="#181616">
+        `<svg viewBox="0 0 128 128" width="36" height="36">
+            <g >
                 <path
                     fill-rule="evenodd"
                     clip-rule="evenodd"
@@ -56,6 +57,11 @@ export default function createProjectCard(
     );
     linkRepoElement.target = "_blank";
 
+    const iconsDiv = document.createElement("div");
+    iconsDiv.className = "project-icons-div";
+    iconsDiv.appendChild(linkRepoElement);
+    iconsDiv.appendChild(linkPageElement);
+
     const imgElement = document.createElement("img");
     imgElement.src = img;
     imgElement.alt = title + " page screenshot";
@@ -66,8 +72,7 @@ export default function createProjectCard(
     cardContainer.appendChild(imgElement);
     cardContainer.appendChild(descriptionElement);
     cardContainer.appendChild(techList);
-    cardContainer.appendChild(linkRepoElement);
-    cardContainer.appendChild(linkPageElement);
+    cardContainer.appendChild(iconsDiv);
 
     return cardContainer;
 }

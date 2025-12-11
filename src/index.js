@@ -3,9 +3,9 @@ import "./styles.css";
 import projectsList from "./projects.js";
 import createProjectCard from "./projects/project.js";
 
-const iconsContainers = document.querySelectorAll(".icons-container");
+const introContainer = document.querySelectorAll(".intro-container");
 
-iconsContainers.forEach((container) => {
+introContainer.forEach((container) => {
     container.insertAdjacentHTML("beforeend", icons);
 });
 
