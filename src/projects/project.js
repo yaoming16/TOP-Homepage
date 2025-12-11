@@ -23,6 +23,8 @@ export default function createProjectCard(
 
     const linkPageElement = document.createElement("a");
     linkPageElement.href = linkPage;
+    linkPageElement.setAttribute('aria-label', `View ${title} live page`);
+    linkPageElement.rel = "noopener noreferrer";
     linkPageElement.insertAdjacentHTML(
         "beforeend",
         `<svg
@@ -39,7 +41,9 @@ export default function createProjectCard(
     linkPageElement.target = "_blank";
 
     const linkRepoElement = document.createElement("a");
+    linkRepoElement.rel = "noopener noreferrer";
     linkRepoElement.href = linkRepo;
+    linkRepoElement.setAttribute('aria-label', `View ${title} repository on GitHub`);
     linkRepoElement.insertAdjacentHTML(
         "beforeend",
         `<svg viewBox="0 0 128 128" width="36" height="36">

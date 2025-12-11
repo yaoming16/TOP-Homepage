@@ -150,6 +150,19 @@ a:hover {
     color: var(--teal-dark);
 }
 
+a:visited {
+    color: var(--teal-light);
+}
+
+a:visited:hover {
+    color: var(--teal-dark);
+}
+
+a:focus-visible {
+    outline: 2px solid var(--teal);
+    outline-offset: 2px;
+}
+
 .intro-container {
     height: 100vh;
     padding: 1rem 2rem;
