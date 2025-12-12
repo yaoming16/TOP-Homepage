@@ -3,6 +3,7 @@ import CasaSerena from "./images/CasaSerena.png";
 import LibraryProject from "./images/Library.png";
 import TicTacToe from "./images/TicTacToe.png";
 import TodoList from "./images/ToDo.png";
+import WeatherApp from "./images/WeatherApp.png";
 
 const projectsList = [
     {
@@ -50,6 +51,15 @@ const projectsList = [
         linkRepo: "https://github.com/yaoming16/TOP-Admin-Dashboard",
         image: AdminDashboard,
     },
+    {
+        title: "Weather App",
+        description:
+            "Simple weather lookup built with Webpack. Enter a city, the app fetches its coordinates via the Open-Meteo geocoding API and displays current conditions plus a 7-day forecast from the Open-Meteo forecast API.",
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
+        linkPage: "https://yaoming16.github.io/TOP-weather-page/",
+        linkRepo: "https://github.com/yaoming16/TOP-weather-page",
+        image: WeatherApp,
+    }
 ];
 
 export default projectsList;
