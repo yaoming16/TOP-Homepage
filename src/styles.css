@@ -178,7 +178,7 @@ a:focus-visible {
     margin-top: 7.5rem;
 }
 
-#projects-container {
+#projects-container, #more-projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     gap: 1.5rem;

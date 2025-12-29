@@ -4,8 +4,18 @@ import LibraryProject from "./images/Library.png";
 import TicTacToe from "./images/TicTacToe.png";
 import TodoList from "./images/ToDo.png";
 import WeatherApp from "./images/WeatherApp.png";
+import Battleship from "./images/Battleship.png";
 
 const projectsList = [
+    {
+        title: "Battleship Game",
+        description:
+            "A classic Battleship game built with vanilla JavaScript, HTML, and CSS. Features include a responsive design, turn-based gameplay, and an AI opponent.",
+        technologies: ["HTML", "CSS", "JavaScript", "Webpack"],
+        linkPage: "https://yaoming16.github.io/TOP-Battleship/",
+        linkRepo: "https://github.com/yaoming16/TOP-Battleship",
+        image: Battleship,
+    },
     {
         title: "Todo List",
         description:
