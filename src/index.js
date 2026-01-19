@@ -33,5 +33,5 @@ moreProjects.forEach((project) => {
         project.technologies,
         project.linkRepo,
     );
-    projectsContainer.appendChild(projectCard);
+    moreProjectsContainer.appendChild(projectCard);
 });

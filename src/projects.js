@@ -5,6 +5,7 @@ import TicTacToe from "./images/TicTacToe.png";
 import TodoList from "./images/ToDo.png";
 import WeatherApp from "./images/WeatherApp.png";
 import Battleship from "./images/Battleship.png";
+import CVApplication from "./images/CVApplication.png";
 
 const projectsList = [
     {
@@ -15,6 +16,14 @@ const projectsList = [
         linkPage: "https://yaoming16.github.io/TOP-Battleship/",
         linkRepo: "https://github.com/yaoming16/TOP-Battleship",
         image: Battleship,
+    },
+    {
+        title: "CV Application",
+        description: "A modern, accessible CV builder application built with React and Vite. Create, customize, and preview your professional CV with an intuitive interface.",
+        technologies: ["React", "Vite", "CSS"],
+        linkPage: "https://top-cv-application-919.pages.dev/",
+        linkRepo: "https://github.com/yaoming16/TOP-CV-Application",
+        image: CVApplication,
     },
     {
         title: "Todo List",
