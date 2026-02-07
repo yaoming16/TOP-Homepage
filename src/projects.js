@@ -6,6 +6,7 @@ import TodoList from "./images/ToDo.png";
 import WeatherApp from "./images/WeatherApp.png";
 import Battleship from "./images/Battleship.png";
 import CVApplication from "./images/CVApplication.png";
+import AnimeMemoryGame from "./images/AnimeMemoryGame.png";
 
 const projectsList = [
     {
@@ -18,9 +19,18 @@ const projectsList = [
         image: Battleship,
     },
     {
+        title: "Anime Memory Game",
+        description:
+            "A memory card game built with React that challenges players to click on different anime characters without repeating any selection. The game fetches real anime data from the Jikan API and tests your memory skills.",
+        technologies: ["React", "CSS", "JavaScript", "Vite", "API"],
+        linkPage: "https://top-memory-card-12r.pages.dev/",
+        linkRepo: "https://github.com/yaoming16/TOP-Memory-Card",
+        image: AnimeMemoryGame,
+    },
+    {
         title: "CV Application",
         description: "A modern, accessible CV builder application built with React and Vite. Create, customize, and preview your professional CV with an intuitive interface.",
-        technologies: ["React", "Vite", "CSS"],
+        technologies: ["React", "Vite", "JavaScript", "CSS"],
         linkPage: "https://top-cv-application-919.pages.dev/",
         linkRepo: "https://github.com/yaoming16/TOP-CV-Application",
         image: CVApplication,
