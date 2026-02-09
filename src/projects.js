@@ -54,6 +54,15 @@ const projectsList = [
         image: CasaSerena,
     },
     {
+        title: "Weather App",
+        description:
+            "Simple weather lookup built with Webpack. Enter a city, the app fetches its coordinates via the Open-Meteo geocoding API and displays current conditions plus a 7-day forecast from the Open-Meteo forecast API.",
+        technologies: ["HTML", "CSS", "JavaScript", "API"],
+        linkPage: "https://yaoming16.github.io/TOP-weather-page/",
+        linkRepo: "https://github.com/yaoming16/TOP-weather-page",
+        image: WeatherApp,
+    },
+    {
         title: "Tic Tac Toe",
         description:
             "A clean, minimalist implementation of the classic Tic Tac Toe game",
@@ -80,15 +89,6 @@ const projectsList = [
         linkRepo: "https://github.com/yaoming16/TOP-Admin-Dashboard",
         image: AdminDashboard,
     },
-    {
-        title: "Weather App",
-        description:
-            "Simple weather lookup built with Webpack. Enter a city, the app fetches its coordinates via the Open-Meteo geocoding API and displays current conditions plus a 7-day forecast from the Open-Meteo forecast API.",
-        technologies: ["HTML", "CSS", "JavaScript", "API"],
-        linkPage: "https://yaoming16.github.io/TOP-weather-page/",
-        linkRepo: "https://github.com/yaoming16/TOP-weather-page",
-        image: WeatherApp,
-    }
 ];
 
 export default projectsList;
