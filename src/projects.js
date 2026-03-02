@@ -7,8 +7,19 @@ import WeatherApp from "./images/WeatherApp.png";
 import Battleship from "./images/Battleship.png";
 import CVApplication from "./images/CVApplication.png";
 import AnimeMemoryGame from "./images/AnimeMemoryGame.png";
+import DreamShop from "./images/DreamShop.png";
+import miniMessage from "./images/miniMessage.png";
 
 const projectsList = [
+    {
+        title: "Dream Shop",
+        description:
+            "A modern, responsive e-commerce shopping cart application built with React as part of The Odin Project curriculum. It features a clean UI, product listing, cart management, and integration with a public API for product data.",
+        technologies: ["React", "JSX", "CSS", "JavaScript", "API", "Vite"],
+        linkPage: "https://top-shopping-cart-dg9.pages.dev/",
+        linkRepo: "https://github.com/yaoming16/TOP-Shopping-Cart",
+        image: DreamShop,
+    },
     {
         title: "Battleship Game",
         description:
@@ -34,6 +45,14 @@ const projectsList = [
         linkPage: "https://top-cv-application-919.pages.dev/",
         linkRepo: "https://github.com/yaoming16/TOP-CV-Application",
         image: CVApplication,
+    },
+    {
+        title: "Mini Message Board",
+        description: "A simple message board built with Express and EJS where users can post messages and open individual message cards.",
+        technologies: ["Express", "EJS", "JavaScript", "CSS"],
+        linkPage: "https://mini-message-board-xpfr.onrender.com/",
+        linkRepo: "https://github.com/yaoming16/TOP-Mini-Message-Board",
+        image: miniMessage,
     },
     {
         title: "Todo List",
