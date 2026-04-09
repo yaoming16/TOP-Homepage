@@ -10,8 +10,17 @@ import AnimeMemoryGame from "./images/AnimeMemoryGame.png";
 import DreamShop from "./images/DreamShop.png";
 import miniMessage from "./images/miniMessage.png";
 import Inventory from "./images/Inventory.png";
+import Homepage from "./images/homepage.png";
 
 const projectsList = [
+            {
+        title: "The Latin Quarter",
+        description: "The Latin Quarter is a members-only message board application built as part of The Odin Project's Node.js curriculum. It demonstrates user authentication, role-based access control, and messaging functionality.",
+        technologies: ["Node.js", "Express", "EJS", "JavaScript", "CSS", "SQL"],
+        linkPage: "https://the-latin-quarter.onrender.com/",
+        linkRepo: "https://github.com/yaoming16/TOP-Members-Only",
+        image: Homepage,
+    },
         {
         title: "PixelVault - Games Inventory Application",
         description: "The core purpose of this project is to practice creating a functional Node/Express application managing an SQL database. It challenges developers to design a database schema, populate it with records, and construct a web interface where users can comfortably Create, Read, Update, and Delete (CRUD) structured data (such as games, categories, and developers) with accurate form validation.",
