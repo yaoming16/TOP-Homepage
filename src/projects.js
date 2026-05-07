@@ -11,9 +11,18 @@ import DreamShop from "./images/DreamShop.png";
 import miniMessage from "./images/miniMessage.png";
 import Inventory from "./images/Inventory.png";
 import Homepage from "./images/homepage.png";
+import FileSpace from "./images/FileSpace.jpg";
 
 const projectsList = [
-            {
+    {
+        title: "File Space",
+        description: "This application allows users to create accounts, authenticate securely, and manage their own files and folders in a structured repository. Users can upload various types of files (images, documents, etc.), organize them into folders, rename them, view file details, and safely delete them.",
+        technologies: ["Node.js", "Express", "EJS", "JavaScript", "CSS", "SQL", "Prisma", "Cloudinary"],
+        linkPage: "https://file-space.onrender.com/",
+        linkRepo: "https://github.com/yaoming16/TOP-File-Uploader",
+        image: FileSpace,
+    },
+    {
         title: "The Latin Quarter",
         description: "The Latin Quarter is a members-only message board application built as part of The Odin Project's Node.js curriculum. It demonstrates user authentication, role-based access control, and messaging functionality.",
         technologies: ["Node.js", "Express", "EJS", "JavaScript", "CSS", "SQL"],
